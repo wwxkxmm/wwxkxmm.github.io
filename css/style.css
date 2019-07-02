@@ -505,7 +505,7 @@ blockquote {
 }
 .Index,
 .TagArticle {
-  padding: 7em 0 0 0;
+  padding: 4em 0 0 0;
   margin: 0;
 }
 .Index > li,
@@ -636,7 +636,7 @@ blockquote {
 }
 .center-cropped {
   width: 300px;
-  height: 300px;
+  height: 200px;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -655,7 +655,7 @@ blockquote {
   justify-content: space-between;
 }
 .blog-item {
-  height: 140px;
+  height: 40px;
   display: -webkit-box;
   overflow: hidden;
   -webkit-box-orient: vertical;
