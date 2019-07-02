@@ -445,7 +445,7 @@ a:hover {
   border-bottom: none;
 }
 .link-btn {
-  margin: 5px;
+  margin-right: 10px;
 }
 figure.highlight {
   display: block;
@@ -545,7 +545,6 @@ blockquote {
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  margin-top: 7px;
 }
 .Archives h1:hover::before,
 .Archives h2:hover::before {
@@ -554,11 +553,11 @@ blockquote {
 }
 .Archives h2 {
   font-size: 1.3rem;
-  margin-bottom: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 .Archives h2::before {
   left: -5px;
-  margin-top: 8px;
   width: 8px;
   height: 8px;
 }
@@ -641,8 +640,8 @@ blockquote {
   animation-fill-mode: forwards;
 }
 .center-cropped {
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 250px;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -937,7 +936,7 @@ blockquote {
 .ListView .title h1 {
   font-size: 1.8rem;
   font-weight: 400;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.1em;
   line-height: 125%;
 }
 .ListView .title a {
@@ -951,7 +950,7 @@ blockquote {
 .ListMeta {
   font-size: 0.8em;
   color: #bbb;
-  margin-bottom: 2.5em;
+  margin-bottom: 2em;
 }
 .ListMeta:hover {
   color: #333;
@@ -973,7 +972,7 @@ li.meta-text {
 .PageTitle h1 {
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.1em;
   margin-left: -10%;
 }
 @media screen and (max-width: 1024px) {
