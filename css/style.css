@@ -441,6 +441,12 @@ a:hover {
   color: #0e0e0e;
   border-bottom: 1px #0e0e0e solid;
 }
+.link-title {
+  border-bottom: none;
+}
+.link-btn {
+  margin: 5px;
+}
 figure.highlight {
   display: block;
   width: 92%;
@@ -660,6 +666,10 @@ blockquote {
   overflow: hidden;
   -webkit-box-orient: vertical;
   font-size: 12px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
 }
 @-moz-keyframes route-trans-e {
   0% {
