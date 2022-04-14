@@ -14,7 +14,7 @@
 </li>
 <li><p><strong>Check if the issue has been fixed</strong> – try to reproduce it using the<br>latest <code>master</code> branch in the repository.</p>
 </li>
-<li><p><strong>Isolate the problem</strong> – create a live example (e.g., on<br><a href="http://codepen.io">Codepen</a>) of a <a href="http://css-tricks.com/6263-reduced-test-cases/">reduced test<br>case</a>.</p>
+<li><p><strong>Isolate the problem</strong> – create a live example (e.g., on<br><a href="http://codepen.io" target="_blank" rel="noopener">Codepen</a>) of a <a href="http://css-tricks.com/6263-reduced-test-cases/" target="_blank" rel="noopener">reduced test<br>case</a>.</p>
 </li>
 </ol>
 <p>A good bug report shouldn’t leave others needing to chase you up for more<br>information. Please try to be as detailed as possible in your report. What is<br>your environment? What steps will reproduce the issue? What browser(s) and OS<br>experience the problem? What would you expect to be the outcome? All these<br>details will help people to fix any potential bugs.</p>
@@ -36,7 +36,7 @@
 <p>Please adhere to the coding conventions used throughout a project (whitespace,<br>accurate comments, etc.) and any other requirements (such as test coverage).</p>
 <p>Follow this process if you’d like your work considered for inclusion in the<br>project:</p>
 <ol>
-<li><p><a href="https://help.github.com/articles/fork-a-repo/">Fork</a> the project, clone your<br>fork, and configure the remotes:</p>
+<li><p><a href="https://help.github.com/articles/fork-a-repo/" target="_blank" rel="noopener">Fork</a> the project, clone your<br>fork, and configure the remotes:</p>
 <pre><code class="bash"><span class="comment"># Clone your fork of the repo into the current directory</span>
 git <span class="built_in">clone</span> https://github.com/&lt;your-username&gt;/normalize.css
 <span class="comment"># Navigate to the newly cloned directory</span>
@@ -51,7 +51,7 @@ git pull upstream master</code></pre>
 <li><p>Never work directly on <code>master</code>. Create a new topic branch (off the latest<br>version of <code>master</code>) to contain your feature, change, or fix:</p>
 <pre><code class="bash">git checkout -b &lt;topic-branch-name&gt;</code></pre>
 </li>
-<li><p>Commit your changes in logical chunks. Please adhere to these <a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html">git commit<br>message conventions</a><br>or your code is unlikely be merged into the main project. Use Git’s<br><a href="https://help.github.com/articles/interactive-rebase">interactive rebase</a><br>feature to tidy up your commits before making them public.</p>
+<li><p>Commit your changes in logical chunks. Please adhere to these <a href="http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html" target="_blank" rel="noopener">git commit<br>message conventions</a><br>or your code is unlikely be merged into the main project. Use Git’s<br><a href="https://help.github.com/articles/interactive-rebase" target="_blank" rel="noopener">interactive rebase</a><br>feature to tidy up your commits before making them public.</p>
 <p>Be sure to test the <code>normalize.css</code> file for style conformance.</p>
 <pre><code class="bash">npm <span class="built_in">test</span></code></pre>
 <p>Be sure to add a test to the <code>test.html</code> file if appropriate, and test<br>your change in all supported browsers.</p>
@@ -62,7 +62,7 @@ git pull upstream master</code></pre>
 <li><p>Push your topic branch up to your fork:</p>
 <pre><code class="bash">git push origin &lt;topic-branch-name&gt;</code></pre>
 </li>
-<li><p><a href="https://help.github.com/articles/using-pull-requests/">Open a Pull Request</a><br>with a clear title and description.</p>
+<li><p><a href="https://help.github.com/articles/using-pull-requests/" target="_blank" rel="noopener">Open a Pull Request</a><br>with a clear title and description.</p>
 </li>
 </ol>
 <p><strong>IMPORTANT</strong>: By submitting a patch, you agree to allow the project owner to<br>license your work under the same license as that used by the project.</p>
@@ -94,6 +94,6 @@ git pull upstream master</code></pre>
 <li>Push the changes and tags to GitHub: <code>git push --tags origin master</code></li>
 <li>Checkout the <code>gh-pages</code> branch and follow the instructions in the README.</li>
 </ol>
-<h3 id="Semver-strategy"><a href="#Semver-strategy" class="headerlink" title="Semver strategy"></a>Semver strategy</h3><p><a href="http://semver.org/">Semver</a> is a widely accepted method for deciding how<br>version numbers are incremented in a project. Versions are written as<br>MAJOR.MINOR.PATCH.</p>
+<h3 id="Semver-strategy"><a href="#Semver-strategy" class="headerlink" title="Semver strategy"></a>Semver strategy</h3><p><a href="http://semver.org/" target="_blank" rel="noopener">Semver</a> is a widely accepted method for deciding how<br>version numbers are incremented in a project. Versions are written as<br>MAJOR.MINOR.PATCH.</p>
 <p>Any change to CSS rules whatsoever is considered backwards-breaking and will<br>result in a new <strong>major</strong> release. Others changes with no impact on rendering<br>are considered backwards-compatible and will result in a new <strong>patch</strong> release.</p>
-<p>No changes to CSS rules can add functionality in a backwards-compatible manner,<br>therefore no changes are considered <strong>minor</strong>. For instance, a normalization on<br>an element selector may override a user style on a universal selector, a<br>change to <code>opacity</code> might cause <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/">inputs to disappear</a>,<br>or a change to <code>background-color</code> might cause <a href="https://github.com/jonathantneal/sanitize.css/issues/42">backgrounds to shrink</a>.</p>
+<p>No changes to CSS rules can add functionality in a backwards-compatible manner,<br>therefore no changes are considered <strong>minor</strong>. For instance, a normalization on<br>an element selector may override a user style on a universal selector, a<br>change to <code>opacity</code> might cause <a href="https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/3901363/" target="_blank" rel="noopener">inputs to disappear</a>,<br>or a change to <code>background-color</code> might cause <a href="https://github.com/jonathantneal/sanitize.css/issues/42" target="_blank" rel="noopener">backgrounds to shrink</a>.</p>
